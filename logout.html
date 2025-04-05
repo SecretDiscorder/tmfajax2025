@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Logout - PrataExam</title>
+  <meta name="description" content="[PrataExam] Sistem Ujian Berbasis Komputer yang Dikustomisasi." />
+  <meta name="author" content="Prata Pustaka Universe" />
+  <meta name="reply-to" content="support@prataexam.example.com" />
+  <meta name="keywords" content="PrataExam, Ujian Berbasis Komputer, CBT, e-exam" />
+  <meta name="google" content="notranslate">
+  <meta property="og:title" content="Logout - PrataExam">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="<?= BASE_URL ?>/logout.html">
+  <meta property="og:image" content="./assets/images/logo.png">
+  
+  <!-- Bootstrap CSS (versi terbaru) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+
+  <!-- Manifest & Icons -->
+  <link rel="manifest" href="./a2hs/site.webmanifest">
+  <link rel="apple-touch-icon" href="./a2hs/icon.png">
+  <link rel="shortcut icon" href="./a2hs/favicon.ico" />
+  
+  <meta name="theme-color" content="#4A90E2">
+  
+  <style>
+    body {
+      background: url('./public/images/background.jpg') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: var(--bs-light);
+    }
+    .logout-box {
+      padding: 40px;
+      border-radius: 1em;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 400px;
+    }
+    .logout-box img {
+      max-width: 80px;
+    }
+    .btn-custom {
+      background-color: var(--bs-primary);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: 0.3s;
+    }
+    .btn-custom:hover {
+      background-color: var(--bs-primary-dark);
+    }
+  </style>
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+  <div class="logout-box bg-white p-4 shadow rounded text-center">
+    <img src="./cache/logo/cbt.png" alt="PrataExam Logo" class="img-fluid mb-3">
+    <h3 class="mb-3">Anda sudah logout.</h3>
+    <p>Terima kasih telah berpartisipasi dalam ujian.</p>
+    <a href="./public/code/tce_login.php" class="btn btn-custom mt-3">Login Kembali</a>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

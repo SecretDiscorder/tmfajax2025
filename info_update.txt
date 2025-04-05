@@ -1,0 +1,13 @@
+<h5>Info TMF2023 Update Versi 23.02.27</h5>
+Changelog / Perubahan dari versi sebelumnya (23.02.05)
+<ol>
+<li>Pengubahan tampilan soal jawaban jamak jika menggunakan radio button</li>
+<li>Penambahan keterangan setelah selesai import soal XML</li>
+<li>Perbaikan notice pada beberapa bagian aplikasi</li>
+<li>Penambahan fitur update melalui upload file zip</li>
+<li>Penambahan tombol cepat ke halaman admin untuk user dengan level di atas 4</li>
+<li>Perbaikan setting tanggal pada saat pembuatan jadwal ujian</li>
+</ol>
+
+
+
